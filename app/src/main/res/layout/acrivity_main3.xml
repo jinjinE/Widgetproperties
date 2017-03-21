@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="버튼 1"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:background="#bef481"/>
+
+    <android.support.v7.widget.AppCompatAutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:text="여긴 텍스트뷰입니다."
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:paddingTop="30sp"
+        android:paddingBottom="30sp"/>
+
+    <android.inputmethodservice.ExtractEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2b4c99"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:padding="7sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="15sp"
+        android:textSize="25sp"
+        android:text="버튼 2"
+        android:textColor="#000000"
+        android:background="#c8c9c7"/>
+</LinearLayout>
