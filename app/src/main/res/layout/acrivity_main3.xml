@@ -20,7 +20,7 @@
         android:layout_marginRight="20sp"
         android:text="여긴 텍스트뷰입니다."
         android:textSize="20sp"
-        android:textColor="#000000"
+        android:textColor="#131313"
         android:paddingTop="30sp"
         android:paddingBottom="30sp"/>
 
